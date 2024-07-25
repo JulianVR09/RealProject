@@ -7,7 +7,7 @@ const routerShipment = Router();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const shipmentFilePath = path.join(__dirname, '../../data/shipment.json');
+const shipmentFilePath = path.join(__dirname, '../../data/shipments.json');
 
 const readFileFs = async () => {
     try {

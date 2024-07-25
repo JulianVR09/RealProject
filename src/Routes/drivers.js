@@ -7,7 +7,7 @@ const routerDriver = Router();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const driverFilePath = path.join(__dirname, '../../data/driver.json');
+const driverFilePath = path.join(__dirname, '../../data/drivers.json');
 
 const readDriversFs = async () => {
     try{

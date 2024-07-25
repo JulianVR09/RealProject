@@ -4,10 +4,10 @@ import { fileURLToPath } from "url";
 import path from "path";
 
 const routerWarehouse = Router();
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const _filename = fileURLToPath(import.meta.url);
+const _dirname = path.dirname(_filename);
 
-const warehouseFilePath = path.join(__dirname, '../../data/warehouse.json');
+const warehouseFilePath = path.join(_dirname, '../../data/warehouses.json');
 
 const readWarehouseFs = async () => {
     try {
